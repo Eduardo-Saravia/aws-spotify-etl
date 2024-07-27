@@ -2,7 +2,7 @@
 
 Amazon QuickSight is a scalable, serverless, embeddable, and machine learning-powered business intelligence (BI) service built for the cloud. In this project, QuickSight is used to visualize and analyze data from the `datawarehouse` that has been processed and cataloged.
 
-![Amazon QuickSight Dashboard](../assets/quicksight_dashboard.png)
+![Amazon QuickSight Dashboard](../assets/quicksight_dashboard.PNG)
 
 *Figure: Screenshot of the Amazon QuickSight interface displaying fields available for data visualization from the `datawarehouse` dataset.*
 
