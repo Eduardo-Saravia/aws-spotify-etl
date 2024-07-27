@@ -2,7 +2,7 @@
 
 Amazon Athena is a serverless, interactive query service that allows for easy analysis of data in Amazon S3 using standard SQL. In this project, Athena is used to query the processed data stored in the `datawarehouse` folder after the ETL process.
 
-![Amazon Athena Query Editor](../assets/athena_query_editor.png)
+![Amazon Athena Query Editor](../assets/athena_query_editor.PNG)
 
 *Figure: Screenshot of the Amazon Athena Query Editor showing a sample SQL query on the `datawarehouse` table.*
 
