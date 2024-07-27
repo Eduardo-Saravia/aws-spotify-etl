@@ -2,7 +2,7 @@
 
 The project uses an Amazon S3 bucket organized into two main folders: `staging` and `datawarehouse`. The `staging` folder holds raw CSV data files, while the `datawarehouse` folder stores the transformed data output in Parquet format.
 
-![S3 Bucket Structure](../assets/s3_initial_buckets.png)
+![S3 Bucket Structure](../assets/S3_initial_buckets.PNG)
 
 *Figure 1: S3 bucket structure showing folders for staging and data warehouse.*
 
