@@ -2,7 +2,7 @@
 
 The AWS Glue Crawler is a crucial part of our data pipeline, tasked with automatically discovering and cataloging the data stored in Amazon S3. By scanning the data, the crawler determines the schema and creates metadata tables in the AWS Glue Data Catalog, facilitating easy querying and analysis.
 
-![AWS Glue Crawler](../assets/glue_crawler.png)
+![AWS Glue Crawler](../assets/glue_crawler.PNG)
 
 *Figure: Screenshot of the AWS Glue Crawler interface, showing the successful execution of the crawler named "ndl_"*
 
