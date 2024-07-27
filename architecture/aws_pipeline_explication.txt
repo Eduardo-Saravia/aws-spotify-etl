@@ -1,0 +1,19 @@
+Arcarchitecture Explication:
+
+S3 Staging:
+Raw data files in CSV format, likely sourced from a Spotify database, are initially stored in an Amazon S3 bucket designated as "Staging." This step centralizes the data before processing.
+
+Glue ETL:
+AWS Glue is used to perform the ETL process. In this stage, data is extracted from the S3 "Staging" bucket, transformed as necessary (e.g., data cleaning, aggregation, or restructuring), and then loaded into another S3 bucket, designated as "DataWarehouse."
+
+S3 DataWarehouse:
+This S3 bucket acts as a data warehouse where the transformed data is stored. Here, the data is organized and ready for analysis or querying.
+
+Crawler:
+An AWS Glue Crawler scans the data in the "DataWarehouse" to catalog it and create a table in the Glue Data Catalog. This facilitates data discovery and querying.
+
+Athena:
+AWS Athena is used to run SQL queries directly on the data stored in the S3 "DataWarehouse" bucket. Athena allows for ad hoc analysis and insights without the need to load data into a traditional data warehouse.
+
+QuickSight:
+Finally, Amazon QuickSight is used for data visualization and reporting. QuickSight connects to Athena to retrieve data and enables the creation of interactive dashboards and visualizations, supporting data-driven decision-making.
